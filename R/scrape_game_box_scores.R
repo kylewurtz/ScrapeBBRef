@@ -31,8 +31,8 @@ scrape_game_box_scores = function(game_url_id) {
     html_text()
   txt_away = gsub(" at.*", "", txt_desc)
   txt_away = tolower(team_abbrevs$Team_Abbrev[team_abbrevs$Team_Name == txt_away])
-  txt_home = gsub(".*at ", "", txt_desc)
-  txt_home = gsub(" Box Score.*", "", txt_home)
+  txt_home = gsub(" Box Score.*", "", txt_desc)
+  txt_home = gsub(".*at ", "", txt_home)
   txt_home = tolower(team_abbrevs$Team_Abbrev[team_abbrevs$Team_Name == txt_home])
 
   # get basic stats
