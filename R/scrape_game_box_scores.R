@@ -19,7 +19,7 @@
 #' @export
 #'
 #' @examples
-#' box_scores_
+#' box_scores_201612150DEN = scrape_game_box_scores("201612150DEN")
 scrape_game_box_scores = function(game_url_id) {
   url = paste0("https://www.basketball-reference.com/boxscores/", game_url_id, ".html")
 
