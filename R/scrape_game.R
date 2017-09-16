@@ -12,10 +12,10 @@
 #' @examples
 scrape_game = function(game_url_id) {
 
-  list_game_box_scores = scrape_game_box_scores(game_url_id)
+  game_box_scores = scrape_game_box_scores(game_url_id)
   # scrape_game_play_by_play(game_url_id)
 
   return(list(
-    list_game_box_scores = list_game_box_scores
+    game_box_scores = game_box_scores
   ))
 }

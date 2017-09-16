@@ -16,4 +16,7 @@
 #'
 scrape_season = function(year) {
   df_game_results = scrape_season_results(year)
+
+  game_results = scrape_game(df_game_results$game_url_id[1])
+  game_results$game_box_scores
 }
