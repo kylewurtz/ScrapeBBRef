@@ -5,6 +5,16 @@ Version: 0.1.0
 Author: Kyle Wurtz
 Maintainer: Kyle Wurtz <kpwurtz@gmail.com>
 Description: This package scrapes data from BasketballReference.com
-License: Creative Commons
+License: CC0
 Encoding: UTF-8
+Imports:
+    tidyverse,
+    rvest,
+    stringr,
+    magrittr
+Depends:
+    tidyverse,
+    rvest,
+    stringr,
+    magrittr
 LazyData: true
